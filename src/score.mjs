@@ -142,6 +142,6 @@ export function formatMarkdown(r) {
 		'| --- | --- | --- |',
 		...rows,
 		'',
-		'What the checks mean: https://ai-floss.github.io/guidelines/readiness/',
+		'What the checks mean: https://x-tech-laboratories.github.io/guidelines/readiness/',
 	].join('\n');
 }
