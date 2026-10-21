@@ -7,5 +7,5 @@ This repository is `ai-readiness`, a dependency-free Node.js CLI, library and Gi
 - Prefer missing a project over a false positive: a check should pass only on clear evidence.
 - Do not add dependencies; use Node's standard library and `fetch`.
 - Run `npm test` and make sure it passes before proposing a change.
-- Keep `README.md` and the AI-FLOSS readiness guide in step when a check's meaning changes.
+- Keep `README.md` and the X-Tech Laboratories readiness guide in step when a check's meaning changes.
 - In the pull request, state which parts were written or changed by AI.

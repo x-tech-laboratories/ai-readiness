@@ -1,6 +1,6 @@
 name: AI Readiness Score
-description: Score how ready a repository is for AI-assisted development, using the AI-FLOSS readiness checks.
-author: AI-FLOSS
+description: Score how ready a repository is for AI-assisted development, using the X-Tech Laboratories readiness checks.
+author: X-Tech Laboratories
 branding:
   icon: check-circle
   color: green

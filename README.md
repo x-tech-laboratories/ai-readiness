@@ -1,10 +1,10 @@
 # ai-readiness
 
-[![AI readiness](https://img.shields.io/endpoint?url=https://ai-floss.github.io/badges/AI-FLOSS/ai-readiness.json)](https://ai-floss.github.io/guidelines/readiness/)
+[![AI readiness](https://img.shields.io/endpoint?url=https://x-tech-laboratories.github.io/badges/x-tech-laboratories/ai-readiness.json)](https://x-tech-laboratories.github.io/guidelines/readiness/)
 
 Score how ready an open source repository is for AI-assisted development.
 
-The [AI Readiness Score](https://ai-floss.github.io/guidelines/readiness/) has eight checks, one
+The [AI Readiness Score](https://x-tech-laboratories.github.io/guidelines/readiness/) has eight checks, one
 point each:
 
 | Check                        | What counts                                                                                                                                               |
@@ -26,7 +26,7 @@ lists the file or activity that satisfied each check, so you can see why.
 Needs Node.js 20 or later; `nix develop` gives you a shell with it. A GitHub token is read from `GITHUB_TOKEN`, or from the GitHub CLI.
 
 ```sh
-npx github:AI-FLOSS/ai-readiness owner/repo
+npx github:x-tech-laboratories/ai-readiness owner/repo
 ```
 
 ```text
@@ -47,7 +47,7 @@ repository scores below `N`.
 ## GitHub Action
 
 ```yaml
-- uses: AI-FLOSS/ai-readiness@v0
+- uses: x-tech-laboratories/ai-readiness@v0
   with:
     min-score: 6 # optional: fail below this score
 ```
@@ -57,9 +57,10 @@ the current repository unless you set `repository: owner/name`.
 
 ## Badge
 
-Projects listed on [Awesome AI-FLOSS](https://ai-floss.github.io/awesome/) and AI-FLOSS
-repositories get a weekly-updated shields.io badge; see
-[Add a badge](https://ai-floss.github.io/guidelines/readiness/#add-a-badge).
+Projects listed on
+[Awesome AI-Assisted Open Source](https://x-tech-laboratories.github.io/awesome/) and X-Tech
+Laboratories repositories get a weekly-updated shields.io badge; see
+[Add a badge](https://x-tech-laboratories.github.io/guidelines/readiness/#add-a-badge).
 
 ## As a library
 
@@ -72,10 +73,10 @@ console.log(result.score, result.checks);
 
 ## Contributing
 
-Wrong result for your project? [Open an issue](https://github.com/AI-FLOSS/ai-readiness/issues) with
+Wrong result for your project? [Open an issue](https://github.com/x-tech-laboratories/ai-readiness/issues) with
 the repository and what the score missed. Detection rules live in `src/rules.mjs` as pure functions,
 and every rule change needs a test in `test/rules.test.mjs`. AI-assisted contributions are welcome;
-see the [AI policy](https://github.com/AI-FLOSS/.github/blob/main/AI_POLICY.md).
+see the [AI policy](https://github.com/x-tech-laboratories/.github/blob/main/AI_POLICY.md).
 
 ## Licence
 

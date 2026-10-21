@@ -6,7 +6,7 @@ import { formatMarkdown, formatText, score } from '../src/score.mjs';
 
 const USAGE = `usage: ai-readiness [--json | --markdown] [--min N] owner/repo [owner/repo ...]
 
-Scores repositories on the AI-FLOSS AI Readiness Score (https://ai-floss.github.io/guidelines/readiness/).
+Scores repositories on the X-Tech Laboratories AI Readiness Score (https://x-tech-laboratories.github.io/guidelines/readiness/).
 Reads a token from GITHUB_TOKEN, or from the GitHub CLI when it is installed.
 Exits with status 1 if any repository scores below --min.`;
 
